@@ -1,0 +1,76 @@
+#containerButton{
+            
+    padding: 2%;
+
+}
+
+#buttonContact{
+    border-radius: 20px;
+    background-color: #1D1D1D;
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    padding: 1% 5%;
+    box-shadow: 1px 2px 9px #000;
+    text-shadow: 1px 0px 3px #787878;
+    height: 44px;
+}
+
+#Menu ul{     
+    list-style-type: none;
+}
+
+#Menu ul li{
+    float: left;
+    font-size: 20px;
+    padding: 4%;
+}
+
+#Menu ul li a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+#Menu ul li a:hover{
+    text-decoration: underline;
+}
+
+#Laptop{
+    width: 100%;
+}
+
+#textHome{
+    margin: auto;
+}
+
+#textHome h1{
+    font-size: 3em;
+}
+
+#textHome p{
+    font-size: 24px;
+}
+
+#Corpo{
+    margin-top:5%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1.5rem;     
+    background-color: #00809A;
+    color: #fff;
+    padding: 0 2%;
+    box-shadow: -5px 0px 16px #000;
+}
+
+#Logo{
+    width: 24em;
+}
+
+#Logo img{
+    width: 24em;
+}
