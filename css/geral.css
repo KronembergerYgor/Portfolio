@@ -9,3 +9,7 @@ html, body{
 body{
     background-color:#F1E9DE;
 }
+
+#ContainerDiv{
+    margin: 3% 6%;
+}
