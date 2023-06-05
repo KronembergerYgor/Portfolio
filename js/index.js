@@ -1,19 +1,31 @@
-const saida = document.querySelector("#textHome .teste");
+const elementTextH1             = document.querySelector("#textHome h1");
+const elementTextParagraf       = document.querySelector("#textHome p");
 
 
-console.log("result " + saida);
-
-
-function digitation(texto, contador){
-
+function digitationH1(texto, contador = 0){
     if(contador < texto.length){
-
         setTimeout(() => {
-            saida.textContent += texto.charAt(contador);    
+            elementTextH1.textContent += texto.charAt(contador);    
             contador++;
-            digitation(texto, contador)        
-        }, 90);
+            digitationH1(texto, contador)        
+        }, 60);
+    }else{
+
+        digitationP("Sou desenvolvedor FullStack, sempre visando evoluir no  ambiente de trabalho, buscar aprender novas técnologias e novos desafios.")
+
     }
 }
 
-digitation("testeenaod usdbfboisufhdufbhaoi", 90);
+
+function digitationP(texto, contador = 0){
+    if(contador < texto.length){
+        setTimeout(() => {
+            elementTextParagraf.textContent += texto.charAt(contador);    
+            contador++;
+            digitationP(texto, contador)        
+        }, 60);
+    }
+}
+
+
+digitationH1("Olá, eu sou Ygor Kronemberger")
