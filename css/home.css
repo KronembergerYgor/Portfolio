@@ -48,12 +48,39 @@
 }
 
 #textHome h1{
-    font-size: 5em;
+    font-size: 4em;
 }
+
+#textHome h1.Ativo::after{
+    content: "|";
+    color: rgb(0, 0, 0);
+}
+
 
 #textHome p{
     font-size: 37px;
 }
+
+#textHome p.Ativo::after{
+    content: "|";
+    color: rgb(0, 0, 0);
+}
+
+
+#textHome p.Parado::after{
+    content: "|";
+    color: rgb(0, 0, 0);
+    animation: animate 1s infinite;
+}
+
+@keyframes animate {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+
 
 
 footer{
